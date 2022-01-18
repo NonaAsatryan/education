@@ -10,7 +10,7 @@ import java.util.Map;
 
 public class FileUtil {
 
-    private static final String DATA_PATH = "/Users/nona.asatryan/IdeaProjects/Java Core/src/homework/education/data";
+    private static final String DATA_PATH = "/Users/nona.asatryan/IdeaProjects/education/src/main/java/education/data";
 
     public static void serializeStudents(List<Student> studentList) {
         try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(DATA_PATH + "/students.dat"))) {
